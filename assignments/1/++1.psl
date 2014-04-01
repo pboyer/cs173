@@ -1,0 +1,6 @@
+defvar a = 9 in 
+defvar b = a++ in {
+	print(a);
+	print("\n");
+	b;
+}

@@ -1,0 +1,3 @@
+#the object is updated after modification
+
+(({x:"before"}).x = "after").x

@@ -1,0 +1,6 @@
+# a variable defined in the first defvar can be used in the second
+
+defvar x = "before" in 
+defvar w = x in {
+	x;
+}

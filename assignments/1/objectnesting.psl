@@ -1,0 +1,3 @@
+# a variable can be reassigned with the same name
+
+({w : 5, x: {v: 9}}).x.v

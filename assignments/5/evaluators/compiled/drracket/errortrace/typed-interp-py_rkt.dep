@@ -1,0 +1,1 @@
+("5.3.6" ("167e59fb2f05ac32a0227b17a1eea937f4170e4b" . "011bfdf20cc0c413aa932efa71b27ecb41e77657") (collects #"racket" #"base.rkt") #"/Users/peter/Library/Racket/5.3.6/collects/plai-typed/main.rkt" #"/Users/peter/Desktop/PL/ass/5/ass/evaluators/interp-core-py.rkt" #"/Users/peter/Desktop/PL/ass/5/ass/evaluators/../parseltongue-lang-py/typed-lang.rkt")

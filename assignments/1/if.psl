@@ -1,0 +1,7 @@
+if false then print("then branch\n") else print("else branch\n");
+if true then print("then branch\n") else print("else branch\n");
+if {x: 5} then print("then branch\n") else print("else branch\n");
+if 5 then print("then branch\n") else print("else branch\n");
+if "true" then print("then branch\n") else print("else branch\n");
+if "false" then print("then branch\n") else print("else branch\n");
+if >(1,0) then print("then branch\n") else print("else branch\n");

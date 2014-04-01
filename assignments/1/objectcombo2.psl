@@ -1,0 +1,6 @@
+defvar o1 = {x:"four"} in
+defvar o2 = o1.x += "score" in {
+  print(o1.x);
+  print(" ");
+  o2.x;
+}

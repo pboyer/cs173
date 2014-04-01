@@ -1,0 +1,4 @@
+try 
+  defvar x = 0 in { x }
+catch e in
+  e

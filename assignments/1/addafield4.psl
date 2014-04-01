@@ -1,0 +1,3 @@
+# the new field is updated after modification
+
+(({x:"before"}).y = "after").y

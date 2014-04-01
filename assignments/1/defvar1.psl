@@ -1,0 +1,6 @@
+defvar f = lambda() { print("a\n") } in 
+defvar f = lambda() { print("b\n") } in 
+
+{
+  f();
+}

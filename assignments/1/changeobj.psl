@@ -1,0 +1,6 @@
+# several defvar statements can be chained
+
+defvar x = { w : 5 } in 
+defvar q = ( x.w = 5 ) in {
+	q.w;
+}

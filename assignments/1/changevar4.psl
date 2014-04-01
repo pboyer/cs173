@@ -1,0 +1,7 @@
+# a variable can be reassigned with the same name
+
+defvar x = "before" in 
+defvar x = "after" in 
+defvar w = x in {
+	x;
+}

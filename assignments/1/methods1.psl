@@ -1,0 +1,8 @@
+defvar point = {
+  x: 2, y: 3,
+  translate: lambda(self, x, y) {
+    (self.x += x).y += y
+  }
+} in {
+	point.translate(1,2)
+}

@@ -1,0 +1,9 @@
+defvar x = 5 in {
+  print(x++);
+  print(" ");
+  print(++x);
+  print(" ");
+  print(x--);
+  print(" ");
+  (--x);
+}

@@ -1,0 +1,6 @@
+
+
+defvar x = 5 in
+defvar x = (if true then 6 else 7) in {
+	x
+}

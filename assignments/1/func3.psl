@@ -1,0 +1,8 @@
+defvar x = "" in
+defvar f = lambda(y) { x += +("f says: ", y, "\n"); } in
+defvar g = lambda(y) { x += +("g says: ", y, "\n"); } in {
+  f("hello!");
+  g("did you add that?");
+  f("who let you add to this string?");
+  x;
+}

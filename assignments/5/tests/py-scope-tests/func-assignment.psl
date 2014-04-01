@@ -1,0 +1,6 @@
+deffun foo()
+  x = 4;
+    bar = lambda() {x = 5; x;};
+      bar();
+        x;
+        in { foo() }

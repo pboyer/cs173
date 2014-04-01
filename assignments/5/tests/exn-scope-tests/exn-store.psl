@@ -1,0 +1,5 @@
+defvar x = 0 in
+  try
+    +(x++, raise 42)
+  catch e in
+    x

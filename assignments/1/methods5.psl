@@ -1,0 +1,8 @@
+defvar point = {
+  x: 2, y: 3,
+  translate: lambda(turtle, x, y) {
+    (turtle.x += x).y += y
+  }
+} in {
+	point@translate(point, 1, 2).x
+}

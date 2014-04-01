@@ -1,0 +1,12 @@
+defvar point = {
+  x: 2, y: 3,
+  translate: lambda(self, x, y) {
+    (self.x += x).y += y
+  }
+} in
+defvar point2 = point@translate(4, 5) in {
+  print(point2.x);
+  print(", ");
+  print(point2.y);
+  "";
+}

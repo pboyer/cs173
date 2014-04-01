@@ -1,0 +1,6 @@
+# a variable can be changed after a defvar
+
+defvar x = "before" in {
+  x = "after";
+  x;
+}

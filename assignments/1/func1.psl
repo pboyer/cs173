@@ -1,0 +1,4 @@
+defvar f = lambda() { print("not til later\n") } in {
+  print("now\n");
+  f();
+}

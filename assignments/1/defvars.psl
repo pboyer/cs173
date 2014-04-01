@@ -1,0 +1,2 @@
+defvar o = {x: "myfield"} in
+defvar f = o.x in { f }

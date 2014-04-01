@@ -1,0 +1,8 @@
+# a variable is correct when defined and then modified
+
+defvar x = "before" in {
+  print(x);
+  print("\n");
+  x = "after";
+  x;
+}

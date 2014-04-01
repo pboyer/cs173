@@ -1,0 +1,11 @@
+deffun foo()
+  raise "in foo"
+in
+  deffun bar(f)
+    try
+      f()
+    catch e in
+      e
+in {
+  bar(foo)
+}

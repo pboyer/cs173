@@ -1,0 +1,4 @@
+defvar x = 5 in
+defvar x = (if true then (x++) else x) in {
+	x
+}

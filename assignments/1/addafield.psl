@@ -1,0 +1,3 @@
+# an object is returned by an object modification
+
+({x:"before"}).x = "after"

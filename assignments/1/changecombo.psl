@@ -1,0 +1,6 @@
+# defvar places a variable in scope and it can be edited
+
+defvar x = 24 in {
+  x += 18;
+  x;
+}

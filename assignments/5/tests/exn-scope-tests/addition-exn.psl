@@ -1,0 +1,7 @@
+try
+    +(2, "not a num")
+catch e in {
+  print(e.type);
+  print("\n");
+  print(e.message);
+}

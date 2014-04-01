@@ -1,0 +1,3 @@
+defvar a = 9 in {
+	a++
+}

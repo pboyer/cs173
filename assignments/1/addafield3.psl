@@ -1,0 +1,3 @@
+# an object is returned when a new field is added to an object
+
+({x:"before"}).y = "after"
